@@ -1,0 +1,81 @@
+@import "bulma/bulma.sass";
+
+$purple: #430964;
+$footer-background-color: $purple;
+
+body {
+    background: #EAEAEA
+}
+
+// .container {
+//     background: white;
+// }
+
+.navbar-menu {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .navbar-menu {
+    flex-grow: initial!important;
+    flex-shrink: initial!important;
+}
+
+.banner {
+    background-image: url(./assets/confidence.jpeg);
+    background-size: cover;
+}
+
+.card1 {
+    background-image: url(./assets/olympian.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+.card2 {
+    background-image: url(./assets/dragon.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+.card3 {
+    background-image: url(./assets/skhokho.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+.customFooter {
+    background-color: #430964;
+    color: white;
+}
+
+.customNav {
+    background-color: #430964;
+    color: white;
+}
+
+.letsTalkButton {
+    color: #430964;
+}
+
+.bannerButton {
+    background-color: #430964;
+    color: white
+}
+
+.rectangle {
+    justify-content: center;
+}
+
+.card-box {
+    height: 350px;
+}
+
+@media screen and (min-width: 1024px){
+    .navbar, .navbar-menu, .navbar-start, .navbar-end {
+        align-items: stretch;
+        display: flex;
+        justify-content: center;
+    }
+}
